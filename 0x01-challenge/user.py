@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-User class
-"""
+""" User class """
 
 
 class User():
@@ -22,12 +20,6 @@ class User():
         if type(value) is not str:
             raise TypeError("email must be a string")
         self.__email = value
-
-    """@property
-    def email(self):
-        """ """Documentation""" """
-        return self.__email
-    """
 
 
 if __name__ == "__main__":
